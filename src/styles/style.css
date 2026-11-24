@@ -15,13 +15,13 @@ circle{
     font-family: sans-serif;
     text-anchor: middle;
     color: black;
-    'z-index': 1001;
+    z-index: 1001;
 }
 .label{
     font-size: 20pt;
     font-family: sans-serif;
     text-anchor: middle;
-    'z-index': 1001;
+    z-index: 1001;
 }
 .bars{
     fill-opacity: .7;

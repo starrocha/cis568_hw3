@@ -25,8 +25,8 @@ The code is marked with `// Missing Part N` comments.
 | 1 | `../src/index.html` | Draw a second scatterplot in `#figure2`, titled **"MPG vs Engine Size"**: `x = EngineSizeCI`, `y = MPG`, size = `Weight`, colour = `Country` | 15 |
 | 2 | `../src/index.html` | Add one `<li>` to the list for each selected car | 15 |
 | 3 | `../src/index.html` | Each `<li>` shows the car's details as `"<Model> - <Type>"` | 15 |
-| 4 | `scatterplot.problem.js` | Clicking on the plot (a new brush with no extent) removes the `selected` class from every circle | 15 |
-| 5 | `scatterplot.problem.js` | Hovering over a legend swatch adds the `legendSelect` class to that country's circles and swatch in **both** plots; moving the mouse away removes it | 25 |
+| 4 | `scatterplot.js` | Clicking on the plot (a new brush with no extent) removes the `selected` class from every circle | 15 |
+| 5 | `scatterplot.js` | Hovering over a legend swatch adds the `legendSelect` class to that country's circles and swatch in **both** plots; moving the mouse away removes it | 25 |
 
 ### Step 3: Implement brushing
 Brushing in either plot must select the matching data points in **both** plots (see GIF).
